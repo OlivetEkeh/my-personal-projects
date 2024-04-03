@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main-page {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: rgb(75, 71, 71);
+  padding: 20px 0;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.olivet-img {
+  max-width: 50%;
+  margin: 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.olivet-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(183, 228, 19);
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  color: azure;
+  margin-bottom: 10px;
+  margin: 0 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  padding: 1rem 6rem;
+  background-color: rgb(104, 95, 95);
+  margin: 1rem 2.5rem;
+  border-radius: 6px;
+  transition: transform 0.2S;
+}
+
+.links li:hover {
+  background-color: rgb(183, 228, 19);
+  transform: scale(1.05);
+}
+
+.links li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+
+.links li:hover a {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  color: aliceblue;
+}
+.attribution a { color: hsl(86, 84%, 52%); }
